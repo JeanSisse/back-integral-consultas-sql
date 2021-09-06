@@ -12,3 +12,5 @@ SELECT composicao, tempo WHERE compositor = 'Mozart' OR compositor = 'Bach';
 SELECT * FROM musicas ORDER BY id DESC;
 
 SELECT * FROM musicas ORDER BY tempo DESC;
+
+SELECT * FROM musicas ORDER BY tempo ASC LIMIT 5;
