@@ -10,3 +10,5 @@ SELECT * FROM musicas WHERE compositor IS NOT NULL AND tempo > 300 AND composito
 SELECT composicao, tempo WHERE compositor = 'Mozart' OR compositor = 'Bach';
 
 SELECT * FROM musicas ORDER BY id DESC;
+
+SELECT * FROM musicas ORDER BY tempo DESC;
