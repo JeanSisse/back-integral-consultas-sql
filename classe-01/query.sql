@@ -30,3 +30,5 @@ SELECT DISTINCT compositor, composicao FROM musicas;
 SELECT * FROM musicas WHERE compositor LIKE 'Bra%';
 
 SELECT * FROM musicas WHERE ritmo LIKE '%troppo';
+
+SELECT * FROM musicas WHERE composicao ILIKE '%quartet%';
