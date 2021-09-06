@@ -24,3 +24,5 @@ SELECT * FROM musicas OFFSET 30 LIMIT 10;
 SELECT * FROM musicas OFFSET 60 LIMIT 12;
 
 SELECT DISTINCT compositor FROM musicas WHERE compositor IS NOT NULL;
+
+SELECT DISTINCT compositor, composicao FROM musicas;
