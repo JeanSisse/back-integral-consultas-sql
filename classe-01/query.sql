@@ -26,3 +26,5 @@ SELECT * FROM musicas OFFSET 60 LIMIT 12;
 SELECT DISTINCT compositor FROM musicas WHERE compositor IS NOT NULL;
 
 SELECT DISTINCT compositor, composicao FROM musicas;
+
+SELECT * FROM musicas WHERE compositor LIKE 'Bra%';
