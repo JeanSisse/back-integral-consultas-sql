@@ -16,3 +16,5 @@ SELECT * FROM musicas ORDER BY tempo DESC;
 SELECT * FROM musicas ORDER BY tempo ASC LIMIT 5;
 
 SELECT * FROM musicas ORDER BY tempo DESC LIMIT 5;
+
+SELECT * FROM musicas ORDER BY tempo ASC OFFSET 5 LIMIT 10;
